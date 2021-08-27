@@ -11,7 +11,7 @@ public class MainClass {
 		
 		int input = 0;
 		
-		MenuName hs = new hs_class();
+		MenuName hs = null;
 		
 		while(true) {
 			System.out.println("1.박상진");
@@ -26,6 +26,7 @@ public class MainClass {
 			case 1: break;
 			case 2: break;
 			case 3:
+				hs = new hs_class();
 				hs.display();
 				break;
 			case 4: break;
