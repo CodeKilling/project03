@@ -2,16 +2,20 @@ package project03;
 
 import java.util.Scanner;
 
+
 import Kimhs.hs_class;
+import psy.PsyMenu;
+import jieun.TestJieun;
+
 
 public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+		MenuName menu = null;
 		int input = 0;
 		
-		MenuName hs = null;
+		
 		
 		while(true) {
 			System.out.println("1.박상진");
@@ -26,14 +30,18 @@ public class MainClass {
 			case 1: break;
 			case 2: break;
 			case 3:
-				hs = new hs_class();
-				hs.display();
+				menu = new hs_class();
+				menu.display();
 				break;
-			case 4: break;
-			case 5: break;
-			
+			case 4:
+				menu = new TestJieun();
+				menu.display();
+				break;
+			case 5:
+				menu = new PsyMenu();
+				menu.display();
+				break;
 			case 6: sc.close(); System.exit(0);
-			
 			default: break;
 			}
 		}
