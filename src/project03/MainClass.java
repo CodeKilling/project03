@@ -26,11 +26,11 @@ public class MainClass {
 			input = sc.nextInt();
 			
 			switch (input) {
-			case 1:
+			case 1: break;
+			case 2:
 				menu = new Nmrnkd_Menu();
-				menu.display();
+				menu.display(); 
 				break;
-			case 2: break;
 			case 3:
 				menu = new hs_class();
 				menu.display();
