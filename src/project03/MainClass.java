@@ -4,6 +4,7 @@ import java.util.Scanner;
 import nmrnkd.Nmrnkd_Menu;
 import Kimhs.hs_class;
 import psy.PsyMenu;
+import sangjin.sj_Menu;
 import jieun.TestJieun;
 
 
@@ -26,7 +27,9 @@ public class MainClass {
 			input = sc.nextInt();
 			
 			switch (input) {
-			case 1: break;
+			case 1: menu = new sj_Menu();
+			menu.display();
+					break;
 			case 2:
 				menu = new Nmrnkd_Menu();
 				menu.display(); 
