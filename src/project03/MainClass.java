@@ -1,12 +1,13 @@
 package project03;
 
 import java.util.Scanner;
+import nmrnkd.Nmrnkd_Menu;
 
 public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+		Nmrnkd_Menu n = new Nmrnkd_Menu();
 		int input = 0;
 		
 		while(true) {
@@ -20,7 +21,7 @@ public class MainClass {
 			
 			switch (input) {
 			case 1: break;
-			case 2: break;
+			case 2: n.display();break;
 			case 3: break;
 			case 4: break;
 			case 5: break;

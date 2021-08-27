@@ -50,6 +50,6 @@ public class Nmrnkd_Menu implements MenuName{
  
 /* Main에 추가할 것
 	import nmrnkd.Nmrnkd_Menu;
-	Nmrnkd n = new Nmrnkd();
+	Nmrnkd_Menu n = new Nmrnkd_Menu();
 	n.display();
 */
