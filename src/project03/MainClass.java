@@ -2,11 +2,13 @@ package project03;
 
 import java.util.Scanner;
 
+import jieun.TestJieun;
+
 public class MainClass {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+		MenuName je = null;
 		int input = 0;
 		
 		while(true) {
@@ -22,7 +24,10 @@ public class MainClass {
 			case 1: break;
 			case 2: break;
 			case 3: break;
-			case 4: break;
+			case 4:
+				je = new TestJieun();
+				je.display();
+				break;
 			case 5: break;
 			
 			case 6: sc.close(); System.exit(0);
