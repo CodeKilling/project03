@@ -26,20 +26,30 @@ public class Nmrnkd_Menu implements MenuName{
 	}//1.점심. 2.저녁. 3.나가기.
 	public void lunch()
 	{
-		System.out.println("늦잠 자서 수업 켜놓고 그래놀라에 우유 말아 먹었어여");
+		System.out.println("늦잠 자서 수업 켜놓고 그래놀라에 우유 말아 먹었어여ㅜㅜ");
 	}//점심메뉴 출력문.
 	public void dinner()
 	{
-		System.out.println("얼마전에 "
-				+ "https://youtu.be/JhDfZAj4OSc "
-				+ "이 영상 보고 너무 먹고 싶어서 따라 해먹었어요!!!!111"
-				+ "만들기 엄청 간단한데 존맛탱...");
+		System.out.println("고기 샐러드?랑 미소 된장국 먹었어여ㅎㅎ\n"
+				+ "얼마전에 "
+				+ "https://youtu.be/JhDfZAj4OSc\n"
+				+ "이 영상 보고 너무 먹고 싶어서 만들어봤는데\n"
+				+ "....!!!!!\n"
+				+ "존맛탱~~");
 	}
 	public void exit()
 	{
 		bool = false;
+	}//저녁메뉴 출력문.
+	
+	public static void main(String[] args) {
+		Nmrnkd_Menu n = new Nmrnkd_Menu();
+		n.display();
 	}
-	//저녁메뉴 출력문.
-
 }
  
+/* Main에 추가할 것
+	import nmrnkd.Nmrnkd_Menu;
+	Nmrnkd n = new Nmrnkd();
+	n.display();
+*/
